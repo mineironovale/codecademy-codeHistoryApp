@@ -13,8 +13,19 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             mainColor.ignoresSafeArea()
-            VStack{}
+            VStack{
+                Text("1 / 10")
+                    .font(.callout)
+                    .multilineTextAlignment(.leading)
+                    .padding()
+                Text("What was the first computer bug?")
+                    .font(.largeTitle)
+                    .bold()
+                    .multilineTextAlignment(.leading)
+                Spacer()
+            }
         }
+        .foregroundColor(.white)
     }
 }
 
