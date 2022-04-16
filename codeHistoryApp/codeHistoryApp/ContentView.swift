@@ -23,6 +23,7 @@ struct ContentView: View {
                     .bold()
                     .multilineTextAlignment(.leading)
                 Spacer()
+                HStack{}
             }
         }
         .foregroundColor(.white)
